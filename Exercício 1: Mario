@@ -1,0 +1,19 @@
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void) {
+    int linhas = 8;
+
+    for (int i = 1; i < linhas; i++) {
+        for (int j = linhas; j > i; j--) {
+            printf(" ");
+    }
+    for (int k=1; k <= i; k++) {
+        printf("#");
+    }
+    printf("\n");
+
+    }
+    return 0;
+}
+
